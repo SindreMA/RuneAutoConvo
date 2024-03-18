@@ -3,6 +3,10 @@
 This is a simple tool to automate the process of clicking through the conversation in RuneScape Classic.
 You might want to use RuneLite, as it marks the conversation text in blue, which makes it easier to filter out the action text.
 
+## Installation
+
+You will need to install tesseract to this location: 'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
 ## How it works
 
 The tool uses the `pyautogui` library to take screenshots of the game window and then look for the conversation text.
